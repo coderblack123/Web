@@ -1,0 +1,187 @@
+﻿<!doctype html>
+<html>
+<head>
+     <title> Sign up </title>
+     <style>
+	*{
+			margin:0;
+			
+		}
+		ul{
+			display:flex;
+			position:relative;
+			top:20%;
+		}
+		ul li {
+			margin-left:30px;
+			list-style:none;
+		}
+		ul li a{
+			text-decoration:none;
+			font-size:30px;
+			color:white;
+		}
+		.main-container{
+			display:flex;
+			background-color:purple;
+			padding:25px;
+		}
+		.brand-name{
+			font-size:40px;
+			color:yellow;
+			font-style:italic;
+			font-weight:bold;
+		}
+		ul li a:hover{
+			color:yellow;
+			font-weight:bold;
+		}
+		.brand-name:hover{
+			color:lightblue;
+		}
+		
+	label:hover{
+		color:green;
+	}
+	label{
+		font-size:20px;
+		font-weight:bold;
+	}
+	input[type="text"]{
+		padding:10px;
+		width:90%;
+	}
+	
+	
+	input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus{
+		background-color:black;
+		color:white;
+		font-size:20px;
+		border-radius:3px;
+	}
+	
+	input{
+		border-top:none;
+		border-left:none;
+		border-right:none;
+	}
+	input[type="email"]{
+		padding:10px;
+		width:90%;
+	}
+	input[type="password"]{
+		padding:10px;
+		width:90%;
+	}
+	input[type="submit"]{
+		font-size:15px;
+		font-weight:bold;
+		margin-top:15px;
+		padding:0.6rem;
+		width:50%;
+		background-color:black;
+		background-style:none;
+		border-radius:3px;
+		color:white;
+		
+	}
+	
+	.inner-container{
+		padding:20px;
+		display:flex;
+		justify-content:center;
+		height:500px;
+		
+	}
+	form{
+		width:45%;
+		background-color:#f3f3f3;
+		padding:20px;
+		border-radius:5px;		
+	}
+	.button-container{
+		display:flex;
+		justify-content:center;
+		
+	}
+	.heading{
+		display:flex;
+		justify-content:center;
+	}
+	input[type="submit"]:hover{
+		background-color:purole;
+		color:white;
+	}
+	p{
+		padding:20px;
+		display:flex;
+		justify-content:center;
+		height:500px;
+		color:red;
+		width:90%;
+	}
+	
+		
+</style>
+</head>
+
+<body > 
+	<div class="main-container">
+	
+	
+
+	<div class="navbar-list">
+		<ul>
+			<li> <a href="Home.html"> home </a> </li>
+			<li> <a href="About1.html"> about </a> </li>
+			<li> <a href="Contact.html"> contact </a> </li>
+			<li> <a href="SignUp.html"> login </a> </li>
+		</ul>
+	</div>
+</div>
+
+	<div class="inner-container">
+	<form>
+	<div class="heading">
+	 <h1 >  Sign Up  </h1>
+	</div>
+	<div> 
+		<label> <b> First Name </b> </label> 
+	</div>
+	<div>
+        	<input type="text" placeholder="Ali" required>
+	</div>
+	<div>
+		<label > <b> Last Name </b> </label>
+	</div>
+	<div>
+		<input type="text" placeholder="butt" required>
+	</div>
+	<div>
+		<label> <b> Email <b/> </label>
+	</div>
+	<div>
+		<input type="email" placeholder="example@gmail.com" required>
+	</div>
+	<div>
+		<label> <b> Password </b> </label>
+	</div>
+	<div>
+		<input type="password" placeholder="********" required>
+	</div>
+	<div>
+		<center>Already a member? <a href="login.html"> Log in </a></center>
+	</div>
+	<div class="button-container">               
+		<input type="submit" value="Sign Up"> 
+	</div>
+
+	<p>
+		If an error occurs when filling a form. a message will 
+			      show here.
+	</p> 
+	
+	</form>
+	</div>
+</body>
+</html>

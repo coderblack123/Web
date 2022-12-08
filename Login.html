@@ -1,0 +1,91 @@
+﻿<!DOCTYPE Html>
+<html>
+<head>
+	<title> Login Page </title>
+<style>
+	*{
+			margin:0;
+			
+		}
+		ul{
+			display:flex;
+			position:relative;
+			top:20%;
+		}
+		ul li {
+			margin-left:30px;
+			list-style:none;
+		}
+		ul li a{
+			text-decoration:none;
+			font-size:30px;
+			color:white;
+		}
+		.main-container{
+			display:flex;
+			background-color:purple;
+			padding:25px;
+		}
+		.brand-name{
+			font-size:40px;
+			color:yellow;
+			font-style:italic;
+			font-weight:bold;
+		}
+		ul li a:hover{
+			color:yellow;
+			font-weight:bold;
+		}
+		.brand-name:hover{
+			color:lightblue;
+		}
+		
+</style>
+</head>
+<body>
+<div class="main-container">
+	<div class="company-name">
+		<p class="brand-name"> BC </p>
+	</div>
+	<div class="navbar-list">
+		<ul>
+			<li> <a href="Home.html"> home </a> </li>
+			<li> <a href="About1.html"> about </a> </li>
+			<li> <a href="Contact.html"> contact </a> </li>
+			<li> <a href="SignUp.html"> login </a> </li>
+		</ul>
+	</div>
+</div>
+	<div class="inner-container">
+	<form>
+	<div class="heading">
+	 <h1 >  Log in  </h1>
+	</div>
+	
+	<div>
+		<label> <b> Email <b/> </label>
+	</div>
+	<div>
+		<input type="email" placeholder="example@gmail.com" required>
+	</div>
+	<div>
+		<label> <b> Password </b> </label>
+	</div>
+	<div>
+		<input type="password" placeholder="********" required>
+	</div>
+	
+	<div class="button-container">               
+		<input type="submit" value="Login"> 
+		<a href="SignUp.html"> Create new Account </a>
+	</div>
+
+	<p>
+		If an error occurs when filling a form. a message will 
+			      show here.
+	</p> 
+	
+	</form>
+	</div>
+
+</body>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Contact </title>
+<style>
+	*{
+			margin:0;
+			
+		}
+		ul{
+			display:flex;
+			position:relative;
+			top:20%;
+		}
+		ul li {
+			margin-left:30px;
+			list-style:none;
+		}
+		ul li a{
+			text-decoration:none;
+			font-size:30px;
+			color:white;
+		}
+		.main-container{
+			display:flex;
+			background-color:rgb(202, 9, 250);
+			padding:25px;
+		}
+		.brand-name{
+			font-size:40px;
+			color:lime;
+			font-style:italic;
+			font-weight:bold;
+		}
+		ul li a:hover{
+			color:yellow;
+			font-weight:bold;
+		}
+		.brand-name:hover{
+			color:lightblue;
+		}
+		.message:hover{
+			color:lightblue;
+		}
+	.inner-container{
+			display:flex;
+			justify-content:center;
+			background-color:none;
+			padding:25px;
+			font-size:20px;
+			color:black;
+			font-style:italic;
+			font-weight:bold;
+		}
+		
+		.sms-btn input{
+			background-color:Navy;
+			color:white;
+			padding:0.5rem;
+			border-style:none;
+			border-radius:20px;
+		}
+		input[type="name"]:focus,input[type="email"]:focus{
+			background-color:black;
+			color:white;
+			font-size:20px;
+			border-radius:3px;
+		}
+		input[type="message"]:focus{
+			display:flex;
+			justify-content:center;
+			background-color:#f3f3f3;
+			padding:25px;
+			font-size:20px;
+			
+			font-style:italic;
+			font-weight:bold;
+		}
+		form{	
+			justify-content:center;
+			width:45%;
+			background-color:#f3f3f3;
+			padding:20px;
+			border-radius:5px;		
+		}
+</style>
+
+</head>
+
+<body>
+	<div class="main-container">
+	<div class="company-name">
+		<p class="brand-name"> BC </p>
+	</div>
+	<div class="navbar-list">
+		<ul>
+			<li> <a href="Home.html"> home </a> </li>
+			<li> <a href="About1.html"> about </a> </li>
+			<li> <a href="Contact.html"> contact </a> </li>
+			<li> <a href="SignUp.html"> login </a> </li>
+		</ul>
+	</div>
+</div>
+
+  
+        <div class="inner-container">
+                            
+                               <form>
+					<div> 
+						<label> <b> Full Name </b> </label> 
+					
+					</div>
+                                        <div>
+						
+                                            <input type="name" type="text"  placeholder="Full Name" required"
+                                                >
+                                        </div>
+                                   	<div>
+					<label> <b> E-mail Address <b/> </label>
+					
+					</div>
+                                    
+                                        <div>
+                                            <input type="email" type="text"  placeholder="E-Mail Address"
+                                                required">
+                                        </div>
+                                    		
+					<div>
+						<label> <b> Your Message <b/> </label>
+					
+					</div>
+                                    
+                                        <div class="message">
+                                            <input type="message" placeholder="Your Message"
+                                                required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
+                                        </div>
+                                   
+                                        <div class="sms-btn">
+                                            <input type="submit" value="Send Message
+                                                Now" >
+                                        </div>
+                                   
+                               
+                            </form>
+                        
+                    </div>
+
+                        
+                           <p style="color:red;"> <br><br>If you need this contact form to send email to your inbox, you may follow our <a
+                                 href="Contact.html" >contact</a> page
+                            for more detail.</p>
+                        <ul class="social">
+                          
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    
+            <div class="row">
+               
+                    <div class="sub-footer" style="color:red;">
+                        <i><p>Copyright &copy; 2020 Blackcoder Page
+
+                        | Designed by <a rel="nofollow" href="Home.html">BC</a></p><i>
+                    </div>
+                </div>
+            
+    </div>
+ 
+
+</body>
+</html>
